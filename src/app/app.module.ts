@@ -32,7 +32,7 @@ import { GameComponent } from './rpg/pages/game/game.component';
     ContactComponent,
     LegalsComponent,
     ConnexionComponent,
-    GameComponent
+    GameComponent,
   ],
   imports: [
     BrowserModule,
