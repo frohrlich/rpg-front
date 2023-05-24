@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'NovaSquare';
+  src: url('assets/NovaSquare-Regular.ttf');
+}
+
+.greyBackground {
+  background-color: #e6e6e6;
+}
+
+.logoGreen {
+  background-color: #245953;
+}
+
+.logoFontColor {
+  color: #ececec;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+}
