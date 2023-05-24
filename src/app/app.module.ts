@@ -16,6 +16,7 @@ import { ContactComponent } from './rpg/pages/contact/contact.component';
 import { LegalsComponent } from './rpg/pages/legals/legals.component';
 import { ConnexionComponent } from './rpg/pages/connexion/connexion.component';
 import { GameComponent } from './rpg/pages/game/game.component';
+import { MentionsLegalesComponent } from './rpg/components/mentions-legales/mentions-legales.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { GameComponent } from './rpg/pages/game/game.component';
     ContactComponent,
     LegalsComponent,
     ConnexionComponent,
-    GameComponent
+    GameComponent,
+    MentionsLegalesComponent
   ],
   imports: [
     BrowserModule,

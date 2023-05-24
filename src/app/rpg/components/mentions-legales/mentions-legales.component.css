@@ -1,0 +1,25 @@
+
+.centered-frame {
+    width: 1000px;
+    height: 450px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    padding: 20px;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    text-align: justify;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #00000018;
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 26px;
+  }
+    h2 {
+    margin-left: 40px;
+    font-size: 19px;
+  }
