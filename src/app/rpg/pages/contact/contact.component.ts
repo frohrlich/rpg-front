@@ -16,7 +16,7 @@ export class ContactComponent implements OnInit {
     this.michel = new ContactCard(
       'assets/img/default_pp.png',
       'Michel ÇAPASSE',
-      'Developpeur front-end',
+      'Développeur front-end',
       '"Un peu de bootstrap et c\'est réglé"',
       ''
     );
@@ -24,7 +24,7 @@ export class ContactComponent implements OnInit {
     this.roger = new ContactCard(
       'assets/img/default_pp.png',
       'Roger LEFORCEUR',
-      'Developpeur back-end',
+      'Développeur back-end',
       '"Spring Data JPA, c\'est cool"',
       ''
     );
