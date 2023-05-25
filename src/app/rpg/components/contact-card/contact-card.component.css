@@ -1,0 +1,27 @@
+.contact-card {
+  box-sizing: border-box;
+  width: 300px;
+  height: 360px;
+  margin: 10px ;
+  padding: 20px 20px;
+  box-shadow: lightgray 4px 4px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+a{
+  position: absolute;
+  bottom: 20px;
+}
+
+.contact-card img{
+  width: 50%;
+}
+
+.role{
+  font-weight: bold;
+  color: rgb(21,115,71);
+}

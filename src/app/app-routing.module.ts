@@ -5,6 +5,7 @@ import { ContactComponent } from './rpg/pages/contact/contact.component';
 import { LegalsComponent } from './rpg/pages/legals/legals.component';
 import { ConnexionComponent } from './rpg/pages/connexion/connexion.component';
 import { GameComponent } from './rpg/pages/game/game.component';
+import { ContactCardComponent } from './rpg/components/contact-card/contact-card.component';
 
 const routes: Routes = [
   {path: '', component: AccueilComponent},
